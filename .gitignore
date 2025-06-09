@@ -78,16 +78,12 @@ src/evaluation/results/*.json
 .streamlit/
 
 # Add these new exclusions for transformers and model caches
-# Transformers model cache
-models/
-.cache/
-**/cache/
-**/models--*/
-**/snapshots/
-**/*.safetensors
-**/*.bin
-**/*.pt
-**/*.pth
+# Transformers model cache (exclude cache files, not model code)
+models/cache/
+models/**/*.safetensors
+models/**/*.bin
+models/**/*.pt
+models/**/*.pth
 
 # spaCy models (downloaded separately)
 **/en_core_web_*/
