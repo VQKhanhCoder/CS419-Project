@@ -1,0 +1,167 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+# Generated indices and models
+data/Indexing/
+data/WhooshIndex/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Evaluation results
+src/evaluation/results/*.txt
+src/evaluation/results/*.json
+
+# Large model files (if any)
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# Streamlit cache
+.streamlit/
+
+# Add these new exclusions for transformers and model caches
+# Transformers model cache
+models/
+.cache/
+**/cache/
+**/models--*/
+**/snapshots/
+**/*.safetensors
+**/*.bin
+**/*.pt
+**/*.pth
+
+# spaCy models (downloaded separately)
+**/en_core_web_*/
+
+# NLTK data (downloaded separately) 
+**/nltk_data/
+
+# HuggingFace cache
+**/.cache/huggingface/
+**/transformers/
+**/torch/
+
+# Large data files
+**/*.tar.gz
+**/*.zip
+**/*.7z
+**/*.rar
+
+# Exclude large dataset files (will be downloaded separately)
+data/Cranfield/*.txt
+data/TEST/**
+
+# Additional large file patterns
+**/*.model
+**/*.vectors
+**/*.w2v
+**/word2vec*
+**/glove*
+**/fasttext*
+
+# Python cache and compiled files that might be large
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.egg-info/
+
+# Jupyter checkpoints
+**/.ipynb_checkpoints/
+
+# Large numpy/pickle files
+**/*.npy
+**/*.npz
+**/*.pickle
+
+# TensorFlow/PyTorch model files
+**/*.ckpt
+**/*.pb
+**/*.tflite
+**/*.onnx
+
+# Evaluation outputs that might be large
+src/evaluation/results/*.txt
+src/evaluation/results/*.json
+src/evaluation/results/*.csv
+
+# Generated indices (will be rebuilt)
+data/Indexing/
+data/WhooshIndex/
+
+# Temporary large files
+**/temp/
+**/tmp/
+**/*.tmp
+**/*.temp
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Documentation builds
+docs/_build/
